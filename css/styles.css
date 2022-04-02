@@ -4,6 +4,7 @@
   --second-bgc: #2F303A;
   --third-bgc: #F5F4FA;
   --forth-bgc: #EEEEEE;
+  --bgc-primary-bytton-action: #188CE8;
   
   --main-title-color: #212121;
   --second-title-color: #FFFFFF;
@@ -85,7 +86,9 @@ color: var(--main-text-color);
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em
-  
+}
+.order-button:hover, .order-button:focus{
+  background-color: var(--bgc-primary-bytton-action);
 }
 .mission-points .mission-point-title{
   font-weight: 700;
